@@ -105,7 +105,7 @@ updateCart();
 
 // ================= PLACE ORDER =================
 
-document.getElementById(order-form).addEventListener(submit, function(event) {
+document.getElementById("order-form").addEventListener("submit", function(event) {
 
     // Prevent page refresh
     event.preventDefault();
